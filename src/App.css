@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: var(--primaryBackground);
+}
+
 
 :root {
   --primaryBackground: #212222;
@@ -14,96 +24,4 @@
   --white: #fff;
   --black: #000;
   --silver: #bac8d3;
-}
-
-body {
-  background-color: var(--headingColor);
-  color: var(--white);
-  font-family: "Poppins", sans-serif;
-}
-a {
-color: var(--grey);
-text-decoration: none;
-transition: 0.5s;
-}
-a:hover {
-  color: var(--primaryColor);
-}
-p{
-  color: var(--silver);
-  font-size: 15px;
-  line-height: 30px;
-  margin: 20px 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
-}
-
-.container {
-  max-width: 80%;
-  margin: auto;
-}
-.flexsb {
-  display: flex;
-  justify-content: space-between;
-}
-header {
-  background-color: var(--headingColor);
-  height: 10vh;
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 999;
-}
-header a {
-  margin-left: 40px;
-}
-.toggle {
-  cursor: pointer;
-  color: var(--white);
-  display: none;
-}
-@media screen and (max-width: 768px) {
-/*    hide the nav link by default */
-.nav {
-  display: none;
-}
-/* styleing the toggle button */
-.toggle {
-  display: block;
-  background: none;
-  font-size: 25px;
-}
-/* show the nav links when the menu is open */
-.nav.showMenu {
-  display: block;
-  position: absolute;
-  top: 10vh;
-  left: 0;
-  width: 100%;
-  background-color: var(--headingColor);
-}
-/* show the nav links when the menu is open */
-.nav.showMenu a {
-  display: block;
-  padding: 15px 0;
-  color: var(--white);
-  text-decoration: none;
-  transition: 0.5s;
-}
-}
-
-section {
-  height: 90vh;
-  display: flex;
-  align-items: center;
-}
-.flex {
-  display: flex;
 }
