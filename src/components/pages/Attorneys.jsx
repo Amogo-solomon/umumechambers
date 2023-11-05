@@ -5,7 +5,7 @@ import { attorneys } from '../data/dummydata';
 export const Attorneys = () => {
   return (
     <>
-      <section className="bg-secondaryBackground bg-cover bg-center h-auto md:h-[70vh]">
+      <section className="bg-secondaryBackground bg-cover bg-center h-auto md:h-[80vh]">
         <div
           className="h-full"
         >
