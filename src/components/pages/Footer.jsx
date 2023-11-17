@@ -11,6 +11,15 @@ export const Footer = () => {
 
   return (
     <footer className="bg-primaryBackground text-white py-12 h-auto md:h-[35vh] relative">
+
+      {/* WhatsApp button with icon */}
+      <button
+          className="absolute top-2 right-1 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md flex items-center gap-2"
+          onClick={handleWhatsAppClick}
+        >
+          <WhatsApp /> {/* WhatsApp icon */}
+          How may we help you?
+        </button>
       <div className="container mx-auto flex flex-col items-center justify-center">
         <div className="flex space-x-4">
           {social.map((item2) => (
@@ -32,14 +41,7 @@ export const Footer = () => {
            (+234 8166617463)
         </p>
 
-        {/* WhatsApp button with icon */}
-        <button
-          className="absolute bottom-2 right-12 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md flex items-center gap-2"
-          onClick={handleWhatsAppClick}
-        >
-          <WhatsApp /> {/* WhatsApp icon */}
-          How may we help you?
-        </button>
+        
       </div>
     </footer>
   );
