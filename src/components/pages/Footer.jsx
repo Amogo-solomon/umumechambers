@@ -1,5 +1,56 @@
 import React from 'react';
 import { social } from '../data/dummydata';
+import { WhatsApp } from '@mui/icons-material'; // Import WhatsApp icon from Material-UI
+
+export const Footer = () => {
+  const whatsappNumber = '+2347084857763'; // WhatsApp number
+
+  const handleWhatsAppClick = () => {
+    window.open(`https://wa.me/${whatsappNumber}`, '_blank');
+  };
+
+  return (
+    <footer className="bg-primaryBackground text-white py-12 h-auto md:h-[35vh] relative">
+      <div className="container mx-auto flex flex-col items-center justify-center">
+        <div className="flex space-x-4">
+          {social.map((item2) => (
+            <a href={item2.url} target="_blank" rel="noopener noreferrer" key={item2.id}>
+              <i className="text-2xl text-primaryColor" data-aos="">
+                {item2.icon}
+              </i>
+            </a>
+          ))}
+        </div>
+        <p className="mt-4 text-center text-sm" data-aos="">
+          &copy; {new Date().getFullYear()} All Rights Reserved
+        </p>
+
+        <p className="mt-4 text-center text-sm text-primaryColor" data-aos="">
+           Powered By Dope9 Technologies
+        </p>
+        <p className=" text-center text-sm text-primaryColor" data-aos="">
+           (+234 8166617463)
+        </p>
+
+        {/* WhatsApp button with icon */}
+        <button
+          className="absolute bottom-2 right-12 bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md flex items-center gap-2"
+          onClick={handleWhatsAppClick}
+        >
+          <WhatsApp /> {/* WhatsApp icon */}
+          How may we help you?
+        </button>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
+
+
+
+/* import React from 'react';
+import { social } from '../data/dummydata';
 
 export const Footer = () => {
   return (
@@ -29,6 +80,7 @@ export const Footer = () => {
   );
 };
 
++234 708 485 7763 */
 
 
 /* import React from 'react';

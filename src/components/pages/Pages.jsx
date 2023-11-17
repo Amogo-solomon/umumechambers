@@ -38,7 +38,7 @@ export const Pages = () => {
         to="top" // Specify the ID of the element you want to scroll to (e.g., "top")
         smooth={true} // Enable smooth scrolling
         duration={500} // Duration of the scrolling animation in milliseconds
-        className="scroll-to-top fixed bottom-6 right-6 bg-blue-500 text-white p-2 rounded-full cursor-pointer transition-opacity hover:opacity-80"
+        className="scroll-to-top fixed bottom-6 right-6 bg-primaryColor text-white p-2 rounded-full cursor-pointer transition-opacity hover:opacity-80"
       >
        
       </Link>
@@ -49,7 +49,7 @@ export const Pages = () => {
       {/* Scroll-to-top button from react-scroll-to-top */}
       <ScrollToTop
         smooth
-        component={<div className="fixed bottom-6 right-6 bg-blue-500 text-white p-2 rounded-full cursor-pointer transition-opacity hover:opacity-80">^</div>}
+        component={<div className="fixed bottom-6 right-6 bg-primaryColor text-white p-2 rounded-full cursor-pointer transition-opacity hover:opacity-80">^</div>}
         topPosition={100}
         style={{ zIndex: 999 }}
       />
