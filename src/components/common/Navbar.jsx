@@ -53,7 +53,9 @@ export const Navbar = () => {
           <ul className="uppercase p-4">
             {navlink.map((links) => (
               <li className="p-4 my-2 border-gray-600" key={links.id}>
-                <Link to={links.url} data-aos="zoom-in-left">
+                <Link to={links.url} data-aos="zoom-in-left"
+                onClick={() => setNav(false)} // Add this onClick handler
+                >
                   {links.text}
                 </Link>
               </li>

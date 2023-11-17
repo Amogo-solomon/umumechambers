@@ -24,13 +24,13 @@ import Slider from "react-slick";
                 <div className="text-3xl text-gray-600">
                   <FormatQuoteIcon />
                 </div>
-                <p className="text-lg text-gray-700 mt-4">{val.text}</p>
+                <p className="md:text-lg text-sm  text-gray-700 mt-4">{val.text}</p>
                 <div className="flex items-center mt-6">
                   <div className="flex-shrink-0">
                     <img src={val.image} alt='' className="h-12 w-12 rounded-full" />
                   </div>
                   <div className="ml-4">
-                    <h3 className="text-lg font-semibold">{val.name}</h3>
+                    <h3 className="text-lg font-semibold text-primaryColor">{val.name}</h3>
                     <label className="text-gray-500">{val.post}</label>
                   </div>
                 </div>

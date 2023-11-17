@@ -218,7 +218,7 @@ export const testimonials = [
         text: " Trusted Advocates! F.I.Ochi & Associates(Umume Chamber) demonstrated unwavering commitment and expertise in handling my legal needs. Their responsive team navigated every step with precision, offering sound advice and achieving positive results. Trusted partners indeed!",
         image: "./images/testimonials/team-1a.png",
         name: "Uko Onah",
-        post: "Engineer",
+        post: "Medical Doctor",
       },
       {
         id: 2,
@@ -232,7 +232,7 @@ export const testimonials = [
         text: "Professional Excellence! F.I.Ochi & Associates(Umume Chamber) surpassed my expectations with their professionalism and attention to detail. Their legal prowess and personalized approach made a complex legal matter feel manageable. Grateful for their support!",
         image: "./images/testimonials/team-3a.png",
         name: "Onahi Idoko",
-        post: "DevOps Engineer",
+        post: "Lab Technician",
       },
 ]
 

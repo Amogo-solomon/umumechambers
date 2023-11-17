@@ -17,6 +17,13 @@ export const Footer = () => {
         <p className="mt-4 text-center text-sm" data-aos="">
           &copy; {new Date().getFullYear()} All Rights Reserved
         </p>
+
+        <p className="mt-4 text-center text-sm text-primaryColor" data-aos="">
+           Powered By Dope9 Technologies
+        </p>
+        <p className="mt-4 text-center text-sm" data-aos="">
+           for ICT Services, contact +234 8166617463
+        </p>
       </div>
     </footer>
   );

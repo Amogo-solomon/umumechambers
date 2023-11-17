@@ -37,9 +37,11 @@ export const Hero = () => {
             <i className='text-primaryColor'>{item.icon}</i>
             <h3 className='font-semibold text-primaryColor'>{item.title}</h3>
            {/*  <p className=''>{item.desc}</p> */}
-           <p className='pt-2 font-bold'>{item.desc1}</p> 
-
-            
+           <p className='pt-2 font-bold'>
+            <a href={`tel:${item.desc1}`}>
+              {item.desc1}
+            </a>
+           </p> 
             
           </div>
         ))}
