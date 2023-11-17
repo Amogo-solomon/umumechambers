@@ -1,4 +1,8 @@
 
+
+
+
+
 import React from 'react';
 import { attorneys } from '../data/dummydata';
 
@@ -9,7 +13,7 @@ export const Attorneys = () => {
         <div
           className="h-full"
         >
-          <div className='text-3xl text-primaryColor font-bold text-center mt-1' >Meet Our Attorneys</div>
+          <div className='text-xl md:text-3xl text-primaryColor font-bold text-center mt-1' >Meet Our Attorneys</div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 max-w-[70%] mx-auto gap-4 top-2">
             {attorneys.map((val1, index1) => (
               <div className="bg-headingColor p-4 rounded-lg shadow-md" data-aos="zoom-out-right" key={index1}>
@@ -17,7 +21,7 @@ export const Attorneys = () => {
                         <img src={val1.image} alt="" className="w-full h-auto rounded-full" />
                     </div>
                     <div className='flex items-center flex-col'>
-                        <h3 className="text-primaryColor text-lg md:text-xl font-semibold mt-4" data-aos="">
+                        <h3 className="text-primaryColor text-sm md:text-lg  text-center font-semibold mt-4" data-aos="">
                             {val1.name}
                         </h3>
                         <p className="text-gray-500 text-sm md:text-base" data-aos="">{val1.post}</p>
@@ -40,7 +44,7 @@ export const Attorneys = () => {
       </section>
     </>
   );
-};
+}; 
 
 
 

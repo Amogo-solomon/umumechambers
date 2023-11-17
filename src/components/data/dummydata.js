@@ -19,8 +19,9 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
     },
     {
         icon: <EmailOutlined />,
-        text1: "illedufrancis@gmail.com",
-        text2: "illedufrancis@gmail.com",
+        text1: "ochifrancis@gmail.com",
+        text2: "ochifrancis@gmail.com",
+        
     },
    ]
 
@@ -37,6 +38,10 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
     {
         url: "/services",
         text: "Services",
+    },
+    {
+        url: "/testimonials",
+        text: "Testimonials",
     },
     {
         url: "/blog",
@@ -103,8 +108,8 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
     {
         id: 1,
         image: "./images/attorneys/team-1a.png",
-        name: "Francis Ochi Esq",
-        post: "Founder and CEO",
+        name: "F.I Ochi Esq. LL.B(Hons) B.L",
+        post: "Managing Partner",
         icon1: <Facebook />,
         icon2: <Twitter />,
         icon3: <Instagram />,
@@ -115,7 +120,7 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
       {
         id: 2,
         image: "./images/attorneys/team-3a.png",
-        name: "Ifunanya Udokwu Esq",
+        name: "I.G. Udokwu Esq. LL.B(Hons) B.LLLM(UK)",
         post: "Associate",
         icon1: <Facebook />,
         icon2: <Twitter />,
@@ -127,8 +132,8 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
       {
         id: 3,
         image: "./images/attorneys/team-2a.jpeg",
-        name: " A. A. Idikwu, Esq, L.L.B(Hon)",
-        post: "Associate",
+        name: " A. A. Idikwu, Esq, L.L.B(Hons) B.LLLM.",
+        post: "Senior Associate",
         icon1: <Facebook />,
         icon2: <Twitter />,
         icon3: <Instagram />,
@@ -137,6 +142,37 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
         url3: "",
       },
 ]
+
+export const achievements = [
+    {
+        id: 1,
+        icon1: <CloudOutlined />,
+        icon: <PersonOutlined />,
+        num: "100",
+        title: "HAPPY CLIENTS",
+    },
+    {
+        id: 2,
+        icon: <FavoriteBorder />,
+        num: "105",
+        title: "LITIGATIONS",
+      },
+      {
+        id: 3,
+        icon: <Public />,
+        num: "53",
+        title: "TESTIMONIALS",
+      },
+      {
+        id: 4,
+        icon: <PersonOutlined />,
+        num: "10",
+        title: "PUBLICATIONS",
+      },
+]
+
+
+
    export const services = [
     {
         id: 1,
@@ -175,11 +211,38 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
         desc: "Businesses of all sizes benefit from our legal support. From contract drafting to litigation, we offer comprehensive business law services",
     },
 ]
+
+export const testimonials = [
+    {
+        id: 1,
+        text: " Trusted Advocates! F.I.Ochi & Associates(Umume Chamber) demonstrated unwavering commitment and expertise in handling my legal needs. Their responsive team navigated every step with precision, offering sound advice and achieving positive results. Trusted partners indeed!",
+        image: "./images/testimonials/team-1a.png",
+        name: "Uko Onah",
+        post: "Engineer",
+      },
+      {
+        id: 2,
+        text: "Exceptional Legal Support! The team at F.I.Ochi & Associates(Umume Chamber) provided invaluable guidance and support throughout my case. Their expertise and dedication ensured a smooth resolution. Highly recommended",
+        image: "./images/testimonials/team-2a.png",
+        name: "Barr Omenka",
+        post: "Legal Practitioner",
+      },
+      {
+        id: 3,
+        text: "Professional Excellence! F.I.Ochi & Associates(Umume Chamber) surpassed my expectations with their professionalism and attention to detail. Their legal prowess and personalized approach made a complex legal matter feel manageable. Grateful for their support!",
+        image: "./images/testimonials/team-3a.png",
+        name: "Onahi Idoko",
+        post: "DevOps Engineer",
+      },
+]
+
+
    export const contact = [
     {
         icon: <AddLocationAltOutlined />,
         text1:"Suite C8, 72 hub, Asokoro, Abuja",
         text2: "FCT, Nigeria",
+        text3: "Opening Hours: Mondas - Fridays, 9:00AM - 5:00PM"
     },
     {
         icon: <PhoneIphone />,
@@ -188,7 +251,7 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
     },
     {
         icon: <EmailOutlined />,
-        text1: "illedufrancis@gmail.com",
+        text1: "ochifrancis@gmail.com",
         text2: "",
     },
    ]

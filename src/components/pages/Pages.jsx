@@ -4,6 +4,7 @@ import { Navbar } from "../common/Navbar";
 import { Home } from "../home/Home";
 import { About } from "./About";
 import { Services } from "./Services";
+import  Testimonials   from "./Testimonials";
 import { Blog } from "./Blog";
 import { Contact } from "./Contact";
 import { Footer } from "./Footer";
@@ -24,8 +25,10 @@ export const Pages = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
+          
         </Routes>
         <Footer />
       </Router>

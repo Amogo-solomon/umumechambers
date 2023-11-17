@@ -56,8 +56,17 @@ export const Contact = () => {
               {contact.map((item, index) => (
                 <div className='box mb-4' data-aos='' key={index}>
                   <i className='text-sm md:text-2xl text-primaryColor'>{item.icon}</i>
-                  <p className='text-sm md:text-lg'>{item.text1}</p>
-                  <p className='text-sm  md:text-lg'>{item.text2}</p>
+                  <p className='text-sm md:text-lg'>
+                    <a href={`tel:${item.text1}`}>
+                        {item.text1}
+                    </a>
+                  </p>
+
+                  <p className='text-sm  md:text-lg'>
+                    <a href={`mailto:${item.text2}`}>
+                        {item.text2}
+                    </a>
+                    </p>
                 </div>
               ))}
             </div>
