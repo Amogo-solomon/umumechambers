@@ -35,7 +35,7 @@ export const Footer = () => {
         </p>
 
         <p className="mt-4 text-center text-sm text-primaryColor" data-aos="">
-           Powered By Dope9 Technologies
+           Powered By Dopetek
         </p>
         <p className=" text-center text-sm text-primaryColor" data-aos="">
            (+234 8166617463)

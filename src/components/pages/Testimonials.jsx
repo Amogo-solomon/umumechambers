@@ -17,6 +17,7 @@ import Slider from "react-slick";
   return (
     <>
       <section className="testimonials hero py-12">
+      <div className="text-3xl text-primaryColor font-bold text-center my-auto pb-2" >Testimonials</div>
         <div className="container mx-auto px-4 max-w-[90%]">
           <Slider {...settings}>
             {testimonials.map((val, index) => (
