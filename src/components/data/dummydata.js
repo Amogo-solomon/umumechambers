@@ -143,7 +143,7 @@ import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart,
       },
       {
         id: 3,
-        image: "./images/attorneys/team-4a.png",
+        image: "./images/attorneys/team-4a.PNG",
         name: " J. J. Nyigba, Esq, LLB(Hons), BL",
         post: "Associate",
         icon1: <Facebook />,
