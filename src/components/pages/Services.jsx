@@ -6,7 +6,7 @@ import { Footer } from "./Footer"
 export const Services = () => {
   return (
     <>
-        <section className="  bg-cover bg-center md:h-[89vh] h-auto  w-full relative top-2 md:my-auto">
+        <section className="  bg-cover bg-center md:h-auto h-auto  w-full relative top-2 md:my-auto">
             <div className="abosolute inset-0 bg-center bg-fixed h-full"
             style={{ backgroundImage: 'url(/images/attorneys-bg.png' }}
             >

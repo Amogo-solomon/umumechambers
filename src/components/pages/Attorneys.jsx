@@ -9,7 +9,7 @@ import { attorneys } from '../data/dummydata';
 export const Attorneys = () => {
   return (
     <>
-      <section className="bg-secondaryBackground bg-cover bg-center h-auto md:h-[80vh]">
+      <section className="bg-secondaryBackground bg-cover bg-center h-auto md:h-auto">
         <div
           className="h-full"
         >
