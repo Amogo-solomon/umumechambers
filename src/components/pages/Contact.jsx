@@ -79,7 +79,7 @@ export const Contact = () => {
                 </form>
               ) : (
                 <div className="text-center text-xl bg-primaryBackground">
-                  <p className='text-primaryColor text-3xl'>Message Sent, Thank you!</p>
+                  <p className='text-primaryColor text-xl p-4 rounded-2'>Message Sent, Thank you!</p>
                   <button onClick={handleReset} className="text-primaryColor underline focus:outline-none">
                     Close 
                   </button>
