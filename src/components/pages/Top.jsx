@@ -6,7 +6,7 @@ export const Top = () => {
   return (
     <div className="flex flex-col md:flex-row justify-between items-center max-w-[90%] mx-auto px-4 my-2 text-white text-xs">
       <div className="mb-4 md:mb-0 flex flex-col md:flex-row items-center md:space-x-2">
-        <img className="text-primaryColor" src={logo} alt="" data-aos="zoom-in-right" />
+        <img className="text-primaryColor  h-12 w-12  " src={logo} alt="" /* data-aos="zoom-in-right" */ />
         {top.map((val, k) => (
           <div key={k} className="text-center md:text-left">
             <h className="text-white">{val.name1}</h>
